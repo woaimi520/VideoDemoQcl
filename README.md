@@ -5,13 +5,13 @@
 ![image](https://github.com/qiushi123/VideoDemoQcl/blob/master/qcl_images/qcl.png?raw=true) 
 
 #一，主要特点
-###1,全屏时启动新Activity实现播放器真正的全屏功能
-###2,能在ListView、ViewPager和ListView、ViewPager和Fragment等多重嵌套模式下全屏工作
-###3,ListView的拖拽和ViewPager的滑动时如果划出屏幕会自动重置视频
-###4,视频大小的屏幕适配，宽或长至少有两个对边是充满屏幕的，另外两个方向居中
-###5,可以在加载、暂停、播放等各种状态中正常进入全屏和退出全屏
-###6,根据自己应用的颜色风格换肤
-###7,播放MP3时显示缩略图片
+#####1,全屏时启动新Activity实现播放器真正的全屏功能
+#####2,能在ListView、ViewPager和ListView、ViewPager和Fragment等多重嵌套模式下全屏工作
+#####3,ListView的拖拽和ViewPager的滑动时如果划出屏幕会自动重置视频
+#####4,视频大小的屏幕适配，宽或长至少有两个对边是充满屏幕的，另外两个方向居中
+#####5,可以在加载、暂停、播放等各种状态中正常进入全屏和退出全屏
+#####6,根据自己应用的颜色风格换肤
+#####7,播放MP3时显示缩略图片
 	
 #二，使用步骤
 
@@ -20,8 +20,8 @@
 			compile 'fm.jiecao:jiecaovideoplayer:1.8'//引入类库时有个bug所以建议直接引入源码lib
 		2.引入源码
 			将jcvideoplayer-lib作为类库引入到你的项目中
-			###如下图
-			![image](https://github.com/qiushi123/VideoDemoQcl/blob/master/qcl_images/qcl2.png?raw=true) 
+###如下图
+![image](https://github.com/qiushi123/VideoDemoQcl/blob/master/qcl_images/qcl2.png?raw=true) 
 ##（二.添加布局
 		<fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
 			android:id="@+id/videocontroller1"
